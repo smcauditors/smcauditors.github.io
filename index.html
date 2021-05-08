@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <!--[if IE]>
+      <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+      <![endif]-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+      <link rel="profile" href="https://gmpg.org/xfn/11" />
+      <link rel="pingback" href="xmlrpc.php" />
+      <link rel="shortcut icon" href="onoaltee/2020/09/plus.png" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="onoaltee/2020/09/plus.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="onoaltee/2020/09/plus.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="onoaltee/2020/09/plus.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="onoaltee/2020/09/plus.png">
+      <link media="all" href="mustatso/cache/autoptimize/css/autoptimize_d2f0faa3c5d26dd3ee87805ad36fe3d7.css" rel="stylesheet" />
+      <title>SmcAuditors &#8211; Smart Contract Auditing and DApp Security</title>
+      <link rel='dns-prefetch' href='https://s.w.org' />
+      <link rel="alternate" type="application/rss+xml" title="SmcAuditors &raquo; Feed" href="feed/index.html" />
+      <link rel="alternate" type="application/rss+xml" title="SmcAuditors &raquo; Comments Feed" href="comments/feed/index.html" />
+      <script>
+         window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/smcauditors.com\/ykuhepsi\/js\/wp-emoji-release.min.js?ver=5.5.3"}};
+         !function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+      </script>
+      <link rel='stylesheet' id='bootstrap-css'  href='mustatso/cache/autoptimize/css/autoptimize_single_f1aaa95be97dea0ef6a330a7972c30cd-ver=5.4.0.css' media='all' />
+      <link rel='stylesheet' id='porto-dynamic-style-css'  href='mustatso/cache/autoptimize/css/autoptimize_single_2b5696e2ae8541bfa2af075b9a97d559-ver=5.4.0.css' media='all' />
+      <script src='ykuhepsi/js/jquery/jquery-ver=1.12.4-wp.js' id='jquery-core-js'></script>
+      <link rel="https://api.w.org/" href="wp-json/index.html" />
+      <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/2.json" />
+      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php-rsd.xml" />
+      <link rel="canonical" href="index.html" />
+      <link rel='shortlink' href='index.html' />
+      <link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embed-url=https_%7C%7Csmcauditors.com%7C.json" />
+      <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed-url=https_%7C%7Csmcauditors.com%7C&format=xml.xml" />
+      <script type="text/javascript">
+         WebFontConfig = {
+         	google: { families: [ 'Poppins:200,300,400,500,600,700,800','Playfair+Display:400,700' ] }
+         };
+         (function(d) {
+         	var wf = d.createElement('script'), s = d.scripts[0];
+         	wf.src = 'egreesha/js/libs/webfont.js';
+         	wf.async = true;
+         	s.parentNode.insertBefore(wf, s);
+         })(document);
+      </script>
+      <script type="text/javascript">function setREVStartSize(e){
+         //window.requestAnimationFrame(function() {
+         	window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;
+         	window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;
+         	try {
+         		var pw = document.getElementById(e.c).parentNode.offsetWidth,
+         			newh;
+         		pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+         		e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+         		e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+         		e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+         		e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+         		e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+         		e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+         		e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);
+         		if(e.layout==="fullscreen" || e.l==="fullscreen")
+         			newh = Math.max(e.mh,window.RSIH);
+         		else{
+         			e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+         			for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];
+         			e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+         			e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+         			for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+
+         			var nl = new Array(e.rl.length),
+         				ix = 0,
+         				sl;
+         			e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+         			e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+         			e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+         			e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;
+         			for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+         			sl = nl[0];
+         			for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}
+         			var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);
+         			newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+         		}
+         		if(window.rs_init_css===undefined) window.rs_init_css = document.head.appendChild(document.createElement("style"));
+         		document.getElementById(e.c).height = newh+"px";
+         		window.rs_init_css.innerHTML += "#"+e.c+"_wrapper { height: "+newh+"px }";
+         	} catch(e){
+         		console.log("Failure at Presize of Slider:" + e)
+         	}
+         //});
+          };
+      </script>
+      <noscript>
+         <style> .wpb_animate_when_almost_visible { opacity: 1; }</style>
+      </noscript>
+   </head>
+   <body class="home page-template-default page page-id-2 wp-embed-responsive full blog-1  wpb-js-composer js-comp-ver-6.2.0 vc_responsive">
+      <div class="page-wrapper">
+         <div class="header-wrapper">
+            <header id="header" class="header-builder logo-overlay-header">
+               <div class="header-top">
+                  <div class="header-row container">
+                     <div class="header-col header-left">
+                        <div class="header-contact">
+                           <ul class="nav nav-pills">
+                              <li class="d-none d-xl-inline-flex">
+                                 <span><img width="18" height="18" src="onoaltee/mail.svg" alt="Mail"></span>
+                                 <a href = "mailto: info@smcauditors.com">info@smcauditors.com</a>
+                              </li>
+                              <li class="d-none d-xl-inline-flex">
+                                 <span><img width="18" height="18" src="onoaltee/calendar.svg" alt="Calendar"></span>
+                                 Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED (GMT-7)
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="header-col header-right">
+                        <div class="custom-html d-none d-md-block"><a href="contact-us/index.html" class="btn btn-primary h-100 font-weight-semibold text-decoration-none text-uppercase">free initial consultation</a></div>
+                     </div>
+                  </div>
+               </div>
+               <div class="header-main">
+                  <div class="header-row container">
+                     <div class="header-col header-left">
+                        <a href="index.html" title="SmcAuditors - Smart Contract Auditing and DApp Security" class="overlay-logo">
+                        <img class="img-responsive" src="onoaltee/2020/09/logoaudit.png" alt="SmcAuditors" style="max-width:250px;" />		</a>
+                        <h1 class="logo">
+                           <a href="index.html" title="SmcAuditors - Smart Contract Auditing and DApp Security"  rel="home">
+                           <img class="img-responsive sticky-logo sticky-retina-logo" src="onoaltee/2020/09/logoaudit.png" alt="SmcAuditors" /><img class="img-responsive standard-logo retina-logo" src="onoaltee/2020/09/logoaudit.png" alt="SmcAuditors" />	</a>
+                        </h1>
+                     </div>
+                     <div class="header-col header-right">
+                        <ul id="menu-main-menu" class="main-menu mega-menu">
+                           <li id="nav-menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item active narrow"><a href="index.html" class=" current">Home</a></li>
+                           <li id="nav-menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="about-us/index.html">About Us</a></li>
+                           <li id="nav-menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="request-audit/index.html">REQUEST AN AUDIT</a></li>
+                           <li id="nav-menu-item-351" class="menu-item menu-item-type-post_type menu-item-object-page narrow"><a href="contact-us/index.html">Contact Us</a></li>
+                        </ul>
+                        <div class="searchform-popup search-popup">
+                           <a class="search-toggle"><i class="fas fa-search"></i><span class="search-text">Search</span></a>
+                           <form action="" method="get"
+                              class="searchform">
+                              <div class="searchform-fields">
+                                 <span class="text"><input name="s" type="text" value="" placeholder="Search&hellip;" autocomplete="off" /></span>
+                                 <span class="button-wrap">
+                                 <button class="btn btn-special" title="Search" type="submit"><i class="fas fa-search"></i></button>
+                                 </span>
+                              </div>
+                              <div class="live-search-list"></div>
+                           </form>
+                        </div>
+                        <a class="mobile-toggle"><i class="fas fa-bars"></i></a>
+                     </div>
+                  </div>
+                  <div id="nav-panel">
+                     <div class="container">
+                        <div class="mobile-nav-wrap">
+                           <div class="menu-wrap">
+                              <ul id="menu-main-menu-1" class="mobile-menu accordion-menu">
+                                 <li id="accordion-menu-item-346" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item active"><a href="index.html" class=" current ">Home</a></li>
+                                 <li id="accordion-menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="about-us/index.html">About Us</a></li>
+                                 <li id="accordion-menu-item-352" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="request-audit/index.html">REQUEST AN AUDIT</a></li>
+                                 <li id="accordion-menu-item-351" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="contact-us/index.html">Contact Us</a></li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </header>
+         </div>
+         <div class="banner-container">
+            <div id="banner-wrapper" class="">
+               <p class="rs-p-wp-fix"></p>
+               <rs-module-wrap id="rev_slider_1_1_wrapper" class="section-angled-top-layer section-angled-bottom-layer" data-source="gallery" style="background:#f4f4f4;padding:0;margin:0px auto;margin-top:0;margin-bottom:0;">
+                  <rs-module id="rev_slider_1_1" style="" data-version="6.2.15">
+                     <rs-slides>
+                        <rs-slide data-key="rs-1" data-title="Slide" data-anim="ei:d;eo:d;s:1000;r:0;t:fade;sl:0;">
+                           <img src="onoaltee/2020/09/banner-1.jpg" title="banner" width="1280" height="853" data-parallax="off" data-panzoom="d:20000ms;ss:110%;se:100;os:250px/0px;oe:0px/0;" class="rev-slidebg" data-no-retina>
+                           <rs-layer
+                              id="slider-1-slide-1-layer-2"
+                              data-type="text"
+                              data-rsp_ch="on"
+                              data-xy="x:c;xo:-8px,-7px,-6px,-14px;y:m;yo:-90px,-102px,-179px,-187px;"
+                              data-text="w:normal;s:15,16,16,14;l:31,42,42,32;a:center;"
+                              data-dim="w:614,513,379,278;"
+                              data-frame_0="y:100%;"
+                              data-frame_1="st:1500;sp:500;"
+                              data-frame_999="o:0;st:w;"
+                              style="z-index:7;font-family:Poppins;font-size:60px !important;"
+                              >
+                           <span style="z-index:7;font-family:Poppins;font-size:60px !important;">Premier cybersecurity consulting company with an essential focus on blockchain security</span><br />
+                           <br />
+                           <img src="onoaltee/2020/09/logoaudit.png" width="500" height="80px" data-no-retina>
+                        </rs-slide>
+                     </rs-slides>
+                  </rs-module>
+                  <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+                     setREVStartSize({c: 'rev_slider_1_1',rl:[1240,1024,778,480],el:[991,991,991,750],gw:[1100,920,680,500],gh:[991,991,991,750],type:'standard',justify:'',layout:'fullwidth',mh:"0"});
+                     var	revapi1,
+                     	tpj;
+                     jQuery(function() {
+                     	tpj = jQuery;
+                     	revapi1 = tpj("#rev_slider_1_1")
+                     	if(revapi1==undefined || revapi1.revolution == undefined){
+                     		revslider_showDoubleJqueryError("rev_slider_1_1");
+                     	}else{
+                     		revapi1.revolution({
+                     			sliderLayout:"fullwidth",
+                     			visibilityLevels:"1240,1024,778,480",
+                     			gridwidth:"1100,920,680,500",
+                     			gridheight:"991,991,991,750",
+                     			spinner:"spinner3",
+                     			perspective:600,
+                     			perspectiveType:"local",
+                     			editorheight:"991,991,991,750",
+                     			responsiveLevels:"1240,1024,778,480",
+                     			progressBar:{disableProgressBar:true},
+                     			navigation: {
+                     				onHoverStop:false
+                     			},
+                     			parallax: {
+                     				levels:[20,40,60,80,100,0,0,0,0,0,0,0,0,0,0,30],
+                     				type:"scroll",
+                     				speed:0,
+                     				speedbg:"400ms",
+                     				speedls:"400ms"
+                     			},
+                     			fallbacks: {
+                     				allowHTML5AutoPlayOnAndroid:true
+                     			},
+                     		});
+                     	}
+
+                     });
+                  </script>
+                  <script>
+                     var htmlDivCss = unescape(".tparrows%3Abefore%20%7B%20color%3A%20%23222529%3B%20text-shadow%3A%20none%20%7D%0A.line-pre-title%20%7B%20width%3A%2050px%3B%20height%3A%203px%3B%20margin-right%3A%2020px%3B%20display%3A%20inline-block%3B%20vertical-align%3A%20middle%3B%20%7D");
+                     var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                     if(htmlDiv) {
+                     	htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                     }else{
+                     	var htmlDiv = document.createElement('div');
+                     	htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                     	document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                     }
+                  </script>
+                  <script>
+                     var htmlDivCss = '	#rev_slider_1_1_wrapper rs-loader.spinner3 div { background-color: #ffffff !important; } ';
+                     var htmlDiv = document.getElementById('rs-plugin-settings-inline-css');
+                     if(htmlDiv) {
+                     	htmlDiv.innerHTML = htmlDiv.innerHTML + htmlDivCss;
+                     }else{
+                     	var htmlDiv = document.createElement('div');
+                     	htmlDiv.innerHTML = '<style>' + htmlDivCss + '</style>';
+                     	document.getElementsByTagName('head')[0].appendChild(htmlDiv.childNodes[0]);
+                     }
+                  </script>
+               </rs-module-wrap>
+            </div>
+         </div>
+         <div id="main" class="column1 wide clearfix no-breadcrumbs">
+            <div class="container-fluid">
+               <div class="row main-content-wrap">
+                  <div class="main-content col-lg-12">
+                     <div id="content" role="main">
+                        <article class="post-2 page type-page status-publish hentry">
+                           <span class="entry-title" style="display: none;">Home</span><span class="vcard" style="display: none;"><span class="fn"><a href="author/admin/index.html" title="Posts by admin" rel="author">admin</a></span></span><span class="updated" style="display:none">2020-09-08T19:26:38+00:00</span>
+                           <div class="page-content">
+                              <div class="vc_row wpb_row vc_custom_1591579580025 porto-inner-container">
+                                 <div class="porto-wrap-container container">
+                                    <div class="row">
+                                       <div class="vc_column_container col-md-12">
+                                          <div class="wpb_wrapper vc_column-inner">
+                                             <div class="vc_row wpb_row vc_inner row background-color-light custom-icon-boxes py-5 justify-content-center no-padding mx-0" data-appear-animation="fadeInUp" data-appear-animation-delay="100">
+                                                <div class="py-4 vc_column_container col-md-6 col-lg-4" data-appear-animation="fadeInUp" data-appear-animation-delay="300">
+                                                   <div class="wpb_wrapper vc_column-inner">
+                                                      <div class="porto-sicon-box px-5 mb-0 style_1 top-icon">
+                                                         <div class="porto-sicon-top">
+                                                            <div id="porto-icon-56562380603460da50acf" class="porto-just-icon-wrapper" style="text-align:center;">
+                                                               <div class="porto-icon none" style="color:#dd3333;font-size:72px;display:inline-block;"><i class="fas fa-file"></i></div>
+                                                            </div>
+                                                         </div>
+                                                         <div class="porto-sicon-header" >
+                                                            <h3 class="porto-sicon-title" style="font-weight:600;font-size:1.5rem;line-height:1.1;color:#183f72;">Ethereum/BSC Audit</h3>
+                                                         </div>
+                                                         <div class="porto-sicon-description" style="">
+                                                            <div class="pagelayer-iconbox fadeInUp pagelayer-wow">
+                                                               <div class="pagelayer-service-container pagelayer-service-align-top pagelayer-service-vertical-{{service_vertical_alignment}}">
+                                                                  <div class="pagelayer-service-details">
+                                                                     <div class="pagelayer-service-text">
+                                                                        <p>Our engineers can do all types of security audits for Ethereum and Binance Smart Chain &#8211; Solidity smart contract audits, DApp security reviews, layer 2 assessments and more.</p>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <p>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="py-4 vc_column_container col-md-6 col-lg-4" data-appear-animation="fadeInUp" data-appear-animation-delay="500">
+                                                   <div class="wpb_wrapper vc_column-inner">
+                                                      <div class="porto-sicon-box px-5 mb-0 style_1 top-icon">
+                                                         <div class="porto-sicon-top">
+                                                            <div id="porto-icon-1425720570603460da50d3f" class="porto-just-icon-wrapper" style="text-align:center;">
+                                                               <div class="porto-icon none" style="color:#dd3333;font-size:72px;display:inline-block;"><i class="fas fa-file-alt"></i></div>
+                                                            </div>
+                                                         </div>
+                                                         <div class="porto-sicon-header" >
+                                                            <h3 class="porto-sicon-title" style="font-weight:600;font-size:1.5rem;line-height:1.1;color:#183f72;">Enterprise Security Audit</h3>
+                                                         </div>
+                                                         <div class="porto-sicon-description" style="">
+                                                            <div class="pagelayer-iconbox fadeInUp pagelayer-wow pagelayer-anim-slow">
+                                                               <div class="pagelayer-service-container pagelayer-service-align-top pagelayer-service-vertical-{{service_vertical_alignment}}">
+                                                                  <div class="pagelayer-service-details">
+                                                                     <div class="pagelayer-service-text">
+                                                                        <p>We provide security audit for the high-level description of the many ways organizations can test themselves. We assess their overall security to meet business objectives, including cybersecurity.</p>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="pagelayer-iconbox fadeInUp pagelayer-wow pagelayer-anim-slow">
+                                                               <div class="pagelayer-service-container pagelayer-service-align-top pagelayer-service-vertical-{{service_vertical_alignment}}">
+                                                                  <div class="pagelayer-service-icon pagelayer-service-default"></div>
+                                                               </div>
+                                                            </div>
+                                                            <p>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                                <div class="py-4 vc_column_container col-md-6 col-lg-4" data-appear-animation="fadeInUp" data-appear-animation-delay="700">
+                                                   <div class="wpb_wrapper vc_column-inner">
+                                                      <div class="porto-sicon-box px-5 mb-0 style_1 top-icon">
+                                                         <div class="porto-sicon-top">
+                                                            <div id="porto-icon-1069340241603460da50f39" class="porto-just-icon-wrapper" style="text-align:center;">
+                                                               <div class="porto-icon none" style="color:#dd3333;font-size:72px;display:inline-block;"><i class="far fa-file-alt"></i></div>
+                                                            </div>
+                                                         </div>
+                                                         <div class="porto-sicon-header" >
+                                                            <h3 class="porto-sicon-title" style="font-weight:600;font-size:1.5rem;line-height:1.1;color:#183f72;">Source Code Audit</h3>
+                                                         </div>
+                                                         <div class="porto-sicon-description" style="">
+                                                            <div class="pagelayer-iconbox fadeInUp pagelayer-wow pagelayer-anim-slowest">
+                                                               <div class="pagelayer-service-container pagelayer-service-align-top pagelayer-service-vertical-{{service_vertical_alignment}}">
+                                                                  <div class="pagelayer-service-details">
+                                                                     <div class="pagelayer-service-text">
+                                                                        <p>We analyze source code, compiled versions of code and network traffic to help find security flaws. Code security analysis is a must for running applications with high demand.</p>
+                                                                     </div>
+                                                                  </div>
+                                                               </div>
+                                                            </div>
+                                                            <div class="pagelayer-iconbox fadeInUp pagelayer-wow pagelayer-anim-slowest">
+                                                               <div class="pagelayer-service-container pagelayer-service-align-top pagelayer-service-vertical-{{service_vertical_alignment}}">
+                                                                  <div class="pagelayer-service-icon pagelayer-service-default"></div>
+                                                               </div>
+                                                            </div>
+                                                            <p>
+                                                         </div>
+                                                      </div>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+                              <div class="vc_row wpb_row py-3 pt-lg-5 pb-lg-4 my-5 porto-inner-container">
+                                 <div class="porto-wrap-container container">
+                                    <div class="row">
+                                       <div class="vc_column_container col-md-12 col-lg-6">
+                                          <div class="wpb_wrapper vc_column-inner">
+                                             <div class="vc_custom_heading mb-1 align-left heading heading-border heading-primary heading-middle-border heading-middle-border-reverse heading-border-lg">
+                                                <h5 style="line-height: 1.6;font-weight:600;letter-spacing:0" data-appear-animation="fadeInLeft" data-appear-animation-delay="100" class="heading-tag heading-primary text-uppercase">Our Work</h5>
+                                             </div>
+                                             <h2 style="font-size: 2.2em;line-height: 1.4" data-appear-animation="fadeInLeft" data-appear-animation-delay="200" class="vc_custom_heading mb-4 align-left heading-secondary">Our Security Audit Process</h2>
+                                             <div class="wpb_text_column wpb_content_element " >
+                                                <div class="wpb_wrapper">
+                                                   <p><b>Code distribution</b></p>
+                                                   <p>Code is distributed to our core team and to several team members across the globe when necessary.</p>
+                                                   <p><b>Individual auditing</b><b><br />
+                                                      </b>All team members first analyze the code on their own, before submitting a draft of their findings.
+                                                   </p>
+                                                   <p><b>Collaborative auditing</b><b><br />
+                                                      </b>Once individual audit findings are put together, the results are discussed and the team proceeds to do another round of collaborative auditing.
+                                                   </p>
+                                                   <p><b>Final report delivery</b></p>
+                                                   <p>Once the collaborative auditing is done, all issues and optimization advice is documented and the report is submitted to the client.</p>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div class="col-coaching-consulting-imgs vc_column_container col-md-12 col-lg-6" data-appear-animation="fadeIn" data-appear-animation-delay="200">
+                                          <div class="wpb_wrapper vc_column-inner">
+                                             <div class="wpb_single_image wpb_content_element vc_align_left   box-shadow-1 p-3 mb-0 position-absolute right-0 m-r-md">
+                                                <div class="wpb_wrapper">
+                                                   <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="280" height="308" src="onoaltee/2020/06/coaching-1-1.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></div>
+                                                </div>
+                                             </div>
+                                             <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1591349425955  position-absolute box-shadow-1 p-3 background-color-light bottom-10 mb-0">
+                                                <div class="wpb_wrapper">
+                                                   <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="267" height="330" src="onoaltee/2020/06/coaching-3-1.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></div>
+                                                </div>
+                                             </div>
+                                             <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1591349146805  box-shadow-1 position-absolute bottom-0 m-b-lg p-3 background-color-light max-w-40">
+                                                <div class="wpb_wrapper">
+                                                   <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="220" height="268" src="onoaltee/2020/06/coaching-2-1.jpg" class="vc_single_image-img attachment-full" alt="" loading="lazy" /></div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="vc_row wpb_row py-3 pt-lg-5 pb-lg-4 my-5 porto-inner-container">
+                                 <div class="porto-wrap-container container">
+                                    <div class="row">
+                                       <div class="vc_column_container col-md-12 col-lg-12">
+                                          <div class="wpb_wrapper vc_column-inner">
+                                             <div class="vc_custom_heading mb-1 align-left heading heading-border heading-primary heading-middle-border heading-middle-border-reverse heading-border-lg">
+                                                <h5 style="line-height: 1.6;font-weight:600;letter-spacing:0" data-appear-animation="fadeInLeft" data-appear-animation-delay="100" class="heading-tag heading-primary text-uppercase">our team</h5>
+                                             </div>
+                                             <h2 style="font-size: 2.2em;line-height: 1.4" data-appear-animation="fadeInLeft" data-appear-animation-delay="200" class="vc_custom_heading mb-4 align-left heading-secondary">Our Core Team</h2>
+
+                           <section  id="team"  class="divided divided-first">
+                                 <div class="divided-cb container xs-3 xs-small-3 fulllength-8 fulllength-lg-18">
+                                    <div  class="cards cards--icons-on-the-top row flex-wrap my-n1 mx-small-n1">
+
+                                       <div  class="card-icons-on-the-top my-1 xs-small-1 card-section col">
+                                          <div class="card-icons-on-the-top__container columnall xs-5 fulllength-8">
+                                             <div  class="align-items-center team-img">
+                                                <img src="onoaltee/rickey.png" width="120" alt="Rickey Cohen" class="image-round">
+                                             </div>
+                                             <div  class="tb">
+                                                <div  class="title align-items-center">
+                                                   <p>Rickey Cohen</p>
+                                                </div>
+                                                <div class="paragraph-text align-items-center">
+                                                   <p><strong>Senior Auditor</strong><br/><br />
+                                                      Rickey is security audit consultant as well as a former software engineer in Novell Networks. He calls himself a "Security Evangelist". We think he is really good at analyzing solutions for attack vectors and finding common security flaws.
+                                                   </p>
+                                                    <div  class="team-icon align-items-center">
+                                                      <a href="https://www.linkedin.com/in/rickey-cohen-7725bb1b1" target="_blank" class="link-block-2 w-inline-block">
+                                                         <img src="onoaltee/linkedin.svg">
+                                                      </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div  class="card-icons-on-the-top my-1 xs-small-1 card-section col">
+                                          <div class="card-icons-on-the-top__container columnall xs-5 fulllength-8">
+                                             <div  class="align-items-center team-img">
+                                                <img src="onoaltee/jacob.png" width="120" alt="Jacob Blair" class="image-round">
+                                             </div>
+                                             <div  class="tb">
+                                                <div  class="title align-items-center">
+                                                   <p>Jacob Blair</p>
+                                                </div>
+                                                <div class="paragraph-text align-items-center">
+                                                   <p><strong>Security Expert</strong><br/><br />
+                                                      Jacob is an experienced Blockchain developer with vast practical knowledge in smart contract security. He has done development as well consultancy to major Blockchain projects in the past. He is good at developing secure smart contracts.
+                                                   </p>
+                                                    <div  class="team-icon align-items-center">
+                                                      <a href="https://www.linkedin.com/in/jacob-blair-a135bb1b1" target="_blank" class="link-block-2 w-inline-block">
+                                                         <img src="onoaltee/linkedin.svg">
+                                                      </a>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </section>
+
+
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="vc_row wpb_row vc_custom_1591499795088 section section-secondary mt-0 mb-0 section-no-borders porto-inner-container">
+                                 <div class="porto-wrap-container container">
+                                    <div class="row align-items-center">
+                                       <div class="vc_column_container col-md-12 col-xl-5">
+                                          <div class="wpb_wrapper vc_column-inner">
+                                             <div class="vc_custom_heading mb-1 align-left heading heading-border heading-primary heading-middle-border heading-middle-border-reverse heading-border-lg">
+                                                <h5 style="line-height: 1.6;font-weight:600;letter-spacing:0" data-appear-animation="fadeInLeft" data-appear-animation-delay="300" class="heading-tag heading-light text-uppercase">CONTACT US</h5>
+                                             </div>
+                                             <h2 style="font-size: 2.2em;line-height: 1.4" data-appear-animation="fadeInLeft" data-appear-animation-delay="400" class="vc_custom_heading mb-1 align-left heading-light">DO YOU NEED A SECURITY AUDIT?</h2>
+                                             <p style="font-weight:600" data-appear-animation="fadeInLeft" data-appear-animation-delay="500" class="vc_custom_heading mb-4 mb-xl-0 align-left heading-light">Security is often the last thing to be considered during the development nad lifecyle of IT projects.</p>
+                                          </div>
+                                       </div>
+                                       <div class="text-xl-right vc_column_container col-md-12 offset-xl-1 col-xl-6">
+                                          <div class="wpb_wrapper vc_column-inner">
+                                             <div class="vc_btn3-container  mb-0 v-middle vc_btn3-inline" >
+                                                <a  data-appear-animation="fadeInRight"  data-appear-animation-delay="900" class="vc_btn3 vc_btn3-shape-default btn btn-modern btn-lg btn-primary" href="request-audit/index.html" title="Contact Us">REQUEST AN AUDIT</a>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </article>
+                        <div class="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-wrapper">
+            <div id="footer" class="footer-1"
+               >
+               <div class="footer-main">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-lg-3">
+                           <aside id="media_image-2" class="widget widget_media_image"><a href="index.html"><img width="500" height="80" src="onoaltee/2020/09/logoaudit.png" class="image wp-image-409  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="onoaltee/2020/09/logoaudit.png 500w, onoaltee/2020/09/logoaudit-400x64.png 400w, onoaltee/2020/09/logoaudit-367x59.png 367w, onoaltee/2020/09/logoaudit94w" sizes="(max-width: 500px) 100vw, 500px" /></a></aside>
+                           <aside id="text-2" class="widget widget_text">
+                              <div class="textwidget">
+                                 <p>Premier cybersecurity consulting company with an essential focus on Blockchain security</p>
+                              </div>
+                           </aside>
+                        </div>
+                        <div class="col-lg-9">
+                           <aside id="custom_html-2" class="widget_text widget widget_custom_html">
+                              <div class="textwidget custom-html-widget">
+                                 <ul class="nav nav-pills">
+                                    <li>
+                                       <span><img width="18" height="18" src="onoaltee/mail.svg" alt="Mail"></span>
+                                       <a href = "mailto: info@smcauditors.com">info@smcauditors.com</a>
+                                    </li>
+                                    <li>
+                                       <span><img width="18" height="18" src="onoaltee/calendar.svg" alt="Calendar"></span>
+                                       Mon - Sat 9:00am - 6:00pm / Sunday - CLOSED
+                                    </li>
+                                 </ul>
+                              </div>
+                           </aside>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer-bottom">
+                  <div class="container">
+                     <div class="footer-left">
+                        <span class="logo">
+                        <a href="index.html" title="SmcAuditors - Smart Contract Auditing and DApp Security">
+                        <img class="img-responsive" src="onoaltee/2020/09/logoaudit.png" alt="SmcAuditors" />					</a>
+                        </span>
+                     </div>
+                     <div class="footer-center">
+                        <span class="footer-copyright">SmcAuditors &copy; 2021. All Rights Reserved</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--[if lt IE 9]>
+      <script src="egreesha/js/libs/html5shiv.min.js"></script>
+      <script src="egreesha/js/libs/respond.min.js"></script>
+      <![endif]-->
+      <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/html" id="wpb-modifications"></script>
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,600%7CRoboto:400" rel="stylesheet" property="stylesheet" media="all" type="text/css" >
+      <script type="text/javascript">
+         if(typeof revslider_showDoubleJqueryError === "undefined") {
+         	function revslider_showDoubleJqueryError(sliderID) {
+         		var err = "<div class='rs_error_message_box'>";
+         		err += "<div class='rs_error_message_oops'>Oops...</div>";
+         		err += "<div class='rs_error_message_content'>";
+         		err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
+         		err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
+         		err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
+         		err += "</div>";
+         	err += "</div>";
+         		var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
+         	}
+         }
+      </script>
+      <script id='porto-live-search-js-extra'>
+         var porto_live_search = {"nonce":"48b772c402"};
+      </script>
+      <script id='porto-theme-js-extra'>
+         var js_porto_vars = {"rtl":"","ajax_url":"https:\/\/smcauditors.com\/wp-admin\/admin-ajax.php","change_logo":"0","container_width":"1240","grid_gutter_width":"30","show_sticky_header":"1","show_sticky_header_tablet":"1","show_sticky_header_mobile":"1","ajax_loader_url":"\/\/smcauditors.com\/egreesha\/images\/ajax-loader@2x.gif","category_ajax":"","prdctfltr_ajax":"","slider_loop":"1","slider_autoplay":"1","slider_autoheight":"1","slider_speed":"5000","slider_nav":"","slider_nav_hover":"1","slider_margin":"","slider_dots":"1","slider_animatein":"","slider_animateout":"","product_thumbs_count":"4","product_zoom":"1","product_zoom_mobile":"1","product_image_popup":"1","zoom_type":"inner","zoom_scroll":"1","zoom_lens_size":"200","zoom_lens_shape":"square","zoom_contain_lens":"1","zoom_lens_border":"1","zoom_border_color":"#888888","zoom_border":"0","screen_lg":"1270","mfp_counter":"%curr% of %total%","mfp_img_error":"<a href=\"%url%\">The image<\/a> could not be loaded.","mfp_ajax_error":"<a href=\"%url%\">The content<\/a> could not be loaded.","popup_close":"Close","popup_prev":"Previous","popup_next":"Next","request_error":"The requested content cannot be loaded.<br\/>Please try again later.","loader_text":"Loading...","submenu_back":"Back","porto_nonce":"3cd1a535d6","use_skeleton_screen":["blog"]};
+      </script>
+      <script>
+         jQuery('body.single-portfolio .testimonial-style-4').removeClass('testimonial-style-4').addClass('testimonial-style-2');
+      </script>
+      <script defer src="mustatso/cache/autoptimize/js/autoptimize_5b9336dea15611c0b7df404b33f50be5.js"></script>
+   </body>
+</html>
